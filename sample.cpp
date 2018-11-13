@@ -1,6 +1,6 @@
 #include <iostream>
 
-int sum(int,int);
+int multiple(int,int);
 
 int main()
 {
@@ -9,7 +9,7 @@ int main()
     return 0;
 }
 
-int sim(int a, int b)
+int multiple(int a, int b)
 {
     return a+b;
 }
