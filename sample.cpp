@@ -1,17 +1,17 @@
 #include "sample.h"
  
-void CSample::set(int num)
+void Sample::set(int num)
 {
     m_num = num;
 }
  
- void CSample::set(int num2)
+void Sample::set2(int num2)
 {
     m_num2 = num2;
 }
 
-int CSample::get()
+int Sample::get()
 {
-    return m_num;
-    return m_num2;
+    return m_num + m_num2;
+
 }

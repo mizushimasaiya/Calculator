@@ -2,11 +2,11 @@
 #define _SAMPLE_H_
  
 // クラス宣言
-class CSample
+class Sample
 {
 public:
     void set(int num);  // m_numに値を設定する
-    int set2(int num2);
+    void set2(int num2);
     int get();          // m_numの値を取得する
 private:
     int m_num;

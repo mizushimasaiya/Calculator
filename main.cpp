@@ -5,7 +5,7 @@ using namespace std;
  
 int main()
 {
-    CSample obj;  // CSampleをインスタンス化
+    Sample obj;  // Sampleをインスタンス化
     int num;
     int num2;
      
@@ -14,9 +14,8 @@ int main()
     cout << "整数を入力して下さい2:" << endl;
     cin >> num2;
      
-    obj.set( num );  // CSampleのメンバ変数をセット
+    obj.set( num );  // Sampleのメンバ変数をセット
+    obj.set2( num2 );
     cout << obj.get() << endl;  // メンバ変数の値を出力
- 
- 
     return 0;
 }
