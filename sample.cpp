@@ -1,15 +1,17 @@
-#include <iostream>
-
-int multiple(int,int);
-
-int main()
+#include "sample.h"
+ 
+void CSample::set(int num)
 {
-    int a=1; int b=9;
-    std::cout << "This is master" << std::endl;
-    return 0;
+    m_num = num;
+}
+ 
+ void CSample::set(int num2)
+{
+    m_num2 = num2;
 }
 
-int multiple(int a, int b)
+int CSample::get()
 {
-    return a+b;
+    return m_num;
+    return m_num2;
 }
